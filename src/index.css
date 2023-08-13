@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.button {
+	padding: 4px 12px;
+	background: rgb(44, 44, 44);
+	color: white;
+	border-radius: 8px;
+}
+
+select {
+	border: 1px solid black;
+	padding: 4px;
+	cursor: pointer;
+	border-radius: 8px;
+}
+
+label > input {
+	border: 1px solid black;
+	padding: 4px;
+	border-radius: 8px;
+	width: 100%;
+}
